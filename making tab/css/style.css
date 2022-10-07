@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*layout*/
+body{font-size:10px;}
+.wrap{margin:auto; width:1024px;}
+.clearfix:afer {  content:""; display:block; clear:both; }
+.hidden {display:none}
+.active {display:flex !important;}
+#header{height:100px; background:red;}
+#container{position:relative; background:white;}
+#footer{}
+
+/*header*/
+h1{display:flex; justify-content:center;}
+h1 p{
+    width:500px;
+}
+header img{
+
+}
+
+/*container*/
+
+/* Common */
+.tab-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    mix-blend-mode: exclusion;
+    overflow:hidden;
+}
+
+.tab-menu li {
+    margin-right: 2rem;
+    cursor: pointer;
+    height:30px;
+    line-height:30px;
+    color: #222;
+    cursor: pointer;
+    user-select: none;
+}
+.tab-menu li:last-child{
+    cursor:auto;
+}
+
+.tab-menu li.active {
+    color: darkslateblue
+}
+
+.tab-content section {
+    display: none;
+    width:100%;
+    height:100vh;
+}
+
+
+section span{
+    display:block;  
+    margin:0 auto;
+    font-size:30px;
+    color:#555;
+}
+/* tab01 about */
+.tab01 p{
+    width:500px;
+    object-fit: contain;
+
+}
+
+/* tab02 web */
+.tab-02 > div{
+    width:300px;
+}
+ㄴ
+
+/* 
+
+.menu .tab-link{
+    display: inline-block;
+    height:30px;
+    color: #222;
+    cursor: pointer;
+    user-select: none;
+}
+.menu .tab-link .menu-link{
+    display:inline-block;
+    font-size:1rem;
+    line-height: 30px;
+    letter-spacing: -0.01rem;
+}
+.content section{
+    display:none;
+} */
