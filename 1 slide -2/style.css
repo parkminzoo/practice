@@ -26,6 +26,12 @@
 .slider-container.animated{
   transition: left .3s ease-in;
 }
+blockquote{
+  color:#636363;
+  font-weight:300;
+  font-style:italic;
+  margin-bottom:15px;
+}
 #prev,
 #next{
   position:absolute;
@@ -45,16 +51,7 @@
 #prev{
   margin-left:-480px;
 }
-#prev::before {
-  content: "f104";
-  font-family: "Font Awesome 5";
-  font-weight: 400;
-}
+
 #next{
   margin-left:380px;
-}
-#next::before {
-  content: "f105";
-  font-family: "Font Awesome 5";
-  font-weight: 400;
 }
